@@ -279,3 +279,75 @@ public enum StyleParam {
     case pl20
     case ptr20
 }
+
+@available(iOS 13.0.0, *) let p: StyleParam = .p
+@available(iOS 13.0.0, *) let pv: StyleParam = .pv
+@available(iOS 13.0.0, *) let ph: StyleParam = .ph
+@available(iOS 13.0.0, *) let pt: StyleParam = .pt
+@available(iOS 13.0.0, *) let pb: StyleParam = .pb
+@available(iOS 13.0.0, *) let pl: StyleParam = .pl
+@available(iOS 13.0.0, *) let ptr: StyleParam = .ptr
+
+@available(iOS 13.0.0, *) let p2: StyleParam = .p2
+@available(iOS 13.0.0, *) let pv2: StyleParam = .pv2
+@available(iOS 13.0.0, *) let ph2: StyleParam = .ph2
+@available(iOS 13.0.0, *) let pt2: StyleParam = .pt2
+@available(iOS 13.0.0, *) let pb2: StyleParam = .pb2
+@available(iOS 13.0.0, *) let pl2: StyleParam = .pl2
+@available(iOS 13.0.0, *) let ptr2: StyleParam = .ptr2
+
+@available(iOS 13.0.0, *) let p4: StyleParam = .p4
+@available(iOS 13.0.0, *) let pv4: StyleParam = .pv4
+@available(iOS 13.0.0, *) let ph4: StyleParam = .ph4
+@available(iOS 13.0.0, *) let pt4: StyleParam = .pt4
+@available(iOS 13.0.0, *) let pb4: StyleParam = .pb4
+@available(iOS 13.0.0, *) let pl4: StyleParam = .pl4
+@available(iOS 13.0.0, *) let ptr4: StyleParam = .ptr4
+
+@available(iOS 13.0.0, *) let p6: StyleParam = .p6
+@available(iOS 13.0.0, *) let pv6: StyleParam = .pv6
+@available(iOS 13.0.0, *) let ph6: StyleParam = .ph6
+@available(iOS 13.0.0, *) let pt6: StyleParam = .pt6
+@available(iOS 13.0.0, *) let pb6: StyleParam = .pb6
+@available(iOS 13.0.0, *) let pl6: StyleParam = .pl6
+@available(iOS 13.0.0, *) let ptr6: StyleParam = .ptr6
+
+@available(iOS 13.0.0, *) let p8: StyleParam = .p8
+@available(iOS 13.0.0, *) let pv8: StyleParam = .pv8
+@available(iOS 13.0.0, *) let ph8: StyleParam = .ph8
+@available(iOS 13.0.0, *) let pt8: StyleParam = .pt8
+@available(iOS 13.0.0, *) let pb8: StyleParam = .pb8
+@available(iOS 13.0.0, *) let pl8: StyleParam = .pl8
+@available(iOS 13.0.0, *) let ptr8: StyleParam = .ptr8
+
+@available(iOS 13.0.0, *) let p10: StyleParam = .p10
+@available(iOS 13.0.0, *) let pv10: StyleParam = .pv10
+@available(iOS 13.0.0, *) let ph10: StyleParam = .ph10
+@available(iOS 13.0.0, *) let pt10: StyleParam = .pt10
+@available(iOS 13.0.0, *) let pb10: StyleParam = .pb10
+@available(iOS 13.0.0, *) let pl10: StyleParam = .pl10
+@available(iOS 13.0.0, *) let ptr10: StyleParam = .ptr10
+
+@available(iOS 13.0.0, *) let p12: StyleParam = .p12
+@available(iOS 13.0.0, *) let pv12: StyleParam = .pv12
+@available(iOS 13.0.0, *) let ph12: StyleParam = .ph12
+@available(iOS 13.0.0, *) let pt12: StyleParam = .pt12
+@available(iOS 13.0.0, *) let pb12: StyleParam = .pb12
+@available(iOS 13.0.0, *) let pl12: StyleParam = .pl12
+@available(iOS 13.0.0, *) let ptr12: StyleParam = .ptr12
+
+@available(iOS 13.0.0, *) let p16: StyleParam = .p16
+@available(iOS 13.0.0, *) let pv16: StyleParam = .pv16
+@available(iOS 13.0.0, *) let ph16: StyleParam = .ph16
+@available(iOS 13.0.0, *) let pt16: StyleParam = .pt16
+@available(iOS 13.0.0, *) let pb16: StyleParam = .pb16
+@available(iOS 13.0.0, *) let pl16: StyleParam = .pl16
+@available(iOS 13.0.0, *) let ptr16: StyleParam = .ptr16
+
+@available(iOS 13.0.0, *) let p20: StyleParam = .p20
+@available(iOS 13.0.0, *) let pv20: StyleParam = .pv20
+@available(iOS 13.0.0, *) let ph20: StyleParam = .ph20
+@available(iOS 13.0.0, *) let pt20: StyleParam = .pt20
+@available(iOS 13.0.0, *) let pb20: StyleParam = .pb20
+@available(iOS 13.0.0, *) let pl20: StyleParam = .pl20
+@available(iOS 13.0.0, *) let ptr20: StyleParam = .ptr20
