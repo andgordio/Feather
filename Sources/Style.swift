@@ -8,9 +8,9 @@
 import SwiftUI
 
 @available(iOS 13.0.0, *)
-struct Style: ViewModifier {
+public struct Style: ViewModifier {
     var params: [StyleParam]
-    func body (content: Content) -> some View {
+    public func body (content: Content) -> some View {
         if params.count > 0 {
             var tempParams = params
             let first = tempParams.removeFirst()
@@ -22,7 +22,7 @@ struct Style: ViewModifier {
 }
 
 @available(iOS 13.0.0, *)
-extension View {
+public extension View {
     func style(_ params: StyleParam...) -> some View {
         self.modifier(Style(params: params))
     }
@@ -32,9 +32,9 @@ extension View {
 }
 
 @available(iOS 13.0.0, *)
-struct StyleModifier: ViewModifier {
+public struct StyleModifier: ViewModifier {
     let param: StyleParam
-    func body (content: Content) -> some View {
+    public func body (content: Content) -> some View {
         switch param {
         case .w(let i): content.frame(width: i)
         case .wFull: content.frame(maxWidth: .infinity)
@@ -56,7 +56,7 @@ struct StyleModifier: ViewModifier {
 }
 
 @available(iOS 13.0.0, *)
-enum StyleParam {
+public enum StyleParam {
     // Frame
     case w(CGFloat)
     case wFull
