@@ -10,13 +10,13 @@ Apply styles directly using `.style` view modifier:
 
 ```
 Text("I’m blue")
-    .style(.pv(10), .ph(40), .bg(.blue), .rounded())
+    .style(.pv, .ph20, .bgBlue, .roundedM)
 ```
 
 Or extract into a variable that stores a `StyleParam` array:
 
 ```
-let blueButton: [StyleParam] = [.pv(10), .ph(40), .bg(.blue), .rounded()]
+let blueButton: [StyleParam] = [.pv, .ph20, .bgBlue, .roundedM]
 
 Text("I’m blue")
     .style(blueButton)
