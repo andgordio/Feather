@@ -280,6 +280,8 @@ public enum StyleParam {
 //    case ptr20
 }
 
+// MARK: - Padding
+
 @available(iOS 13.0.0, *) public let p: StyleParam = .p()
 @available(iOS 13.0.0, *) public let pv: StyleParam = .pv()
 @available(iOS 13.0.0, *) public let ph: StyleParam = .ph()
@@ -351,3 +353,58 @@ public enum StyleParam {
 @available(iOS 13.0.0, *) public let pb20: StyleParam = .pb(20)
 @available(iOS 13.0.0, *) public let pl20: StyleParam = .pl(20)
 @available(iOS 13.0.0, *) public let ptr20: StyleParam = .ptr(20)
+
+// MARK: - Colors
+
+@available(iOS 13.0.0, *) public let bgBlue: StyleParam = .bg(.blue)
+@available(iOS 13.0.0, *) public let bgGreen: StyleParam = .bg(.green)
+@available(iOS 13.0.0, *) public let bgRed: StyleParam = .bg(.red)
+@available(iOS 13.0.0, *) public let bgPink: StyleParam = .bg(.pink)
+@available(iOS 13.0.0, *) public let bgYellow: StyleParam = .bg(.yellow)
+@available(iOS 13.0.0, *) public let bgClear: StyleParam = .bg(.clear)
+@available(iOS 13.0.0, *) public let bgOrange: StyleParam = .bg(.orange)
+@available(iOS 13.0.0, *) public let bgPrimary: StyleParam = .bg(.primary)
+@available(iOS 13.0.0, *) public let bgSecondary: StyleParam = .bg(.secondary)
+@available(iOS 13.0.0, *) public let bgWhite: StyleParam = .bg(.white)
+@available(iOS 13.0.0, *) public let bgBlack: StyleParam = .bg(.black)
+@available(iOS 13.0.0, *) public let bgGray: StyleParam = .bg(.gray)
+@available(iOS 13.0.0, *) public let bgAccent: StyleParam = .bg(.accentColor)
+@available(iOS 13.0.0, *) public let bgPurple: StyleParam = .bg(.purple)
+
+@available(iOS 13.0.0, *) public let fgBlue: StyleParam = .fg(.blue)
+@available(iOS 13.0.0, *) public let fgGreen: StyleParam = .fg(.green)
+@available(iOS 13.0.0, *) public let fgRed: StyleParam = .fg(.red)
+@available(iOS 13.0.0, *) public let fgPink: StyleParam = .fg(.pink)
+@available(iOS 13.0.0, *) public let fgYellow: StyleParam = .fg(.yellow)
+@available(iOS 13.0.0, *) public let fgClear: StyleParam = .fg(.clear)
+@available(iOS 13.0.0, *) public let fgOrange: StyleParam = .fg(.orange)
+@available(iOS 13.0.0, *) public let fgPrimary: StyleParam = .fg(.primary)
+@available(iOS 13.0.0, *) public let fgSecondary: StyleParam = .fg(.secondary)
+@available(iOS 13.0.0, *) public let fgWhite: StyleParam = .fg(.white)
+@available(iOS 13.0.0, *) public let fgBlack: StyleParam = .fg(.black)
+@available(iOS 13.0.0, *) public let fgGray: StyleParam = .fg(.gray)
+@available(iOS 13.0.0, *) public let fgAccent: StyleParam = .fg(.accentColor)
+@available(iOS 13.0.0, *) public let fgPurple: StyleParam = .fg(.purple)
+
+// MARK: - Font
+
+@available(iOS 13.0.0, *) public let font3XS: StyleParam = .fontSize(9)
+@available(iOS 13.0.0, *) public let font2XS: StyleParam = .fontSize(11)
+@available(iOS 13.0.0, *) public let fontXS: StyleParam = .fontSize(13)
+@available(iOS 13.0.0, *) public let fontS: StyleParam = .fontSize(15)
+@available(iOS 13.0.0, *) public let fontM: StyleParam = .fontSize(17)
+@available(iOS 13.0.0, *) public let fontL: StyleParam = .fontSize(21)
+@available(iOS 13.0.0, *) public let fontXL: StyleParam = .fontSize(25)
+@available(iOS 13.0.0, *) public let font2XL: StyleParam = .fontSize(32)
+@available(iOS 13.0.0, *) public let font3XL: StyleParam = .fontSize(40)
+
+// MARK: - Corner Radius
+
+@available(iOS 13.0.0, *) public let roundedXS: StyleParam = .rounded(4)
+@available(iOS 13.0.0, *) public let roundedS: StyleParam = .rounded(8)
+@available(iOS 13.0.0, *) public let rounded: StyleParam = .rounded()
+@available(iOS 13.0.0, *) public let roundedM: StyleParam = .rounded()
+@available(iOS 13.0.0, *) public let roundedL: StyleParam = .rounded(16)
+@available(iOS 13.0.0, *) public let roundedXL: StyleParam = .rounded(20)
+@available(iOS 13.0.0, *) public let roundedFull: StyleParam = .rounded(9999)
+
