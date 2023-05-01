@@ -25,3 +25,15 @@ Text("I’m blue")
 ### Available styles
 
 See `StyleParam` enum in `Sources/Style.swift`
+
+### Animations
+
+Style parameters with explicit values will animate:
+```
+.style(.bg(disabled ? .gray : .accentColor)) // animates background color transition when the value of `disabled` is changed with animation 
+```
+
+Style parameters with built-in values won’t animate:
+```
+.style(disabled ? .bgGray : .bgAccent) // DOES NOT animate background color transition when the value of `disabled` is changed with animation
+```
